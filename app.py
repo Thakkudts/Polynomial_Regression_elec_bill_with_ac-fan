@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-model = joblib.load("polynomial_regression_model.pkl")
+model = joblib.load("polynomial_regression_electricity_ac&fan.pkl")
 
 st.title("⚡ AC Units vs Electric Bill")
 st.write("Predict Electric Bill using Polynomial Regression")
